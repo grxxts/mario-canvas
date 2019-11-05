@@ -7,7 +7,7 @@ class Player {
     this.image = new Image();
     this.image.src = image;
 
-    this.posX = 50;
+    this.posX = 15;
     this.posY = gameHeight * 0.98 - this.height ;
     this.posY0 = gameHeight * 0.98 - this.height ;
     this.vy = 1;
