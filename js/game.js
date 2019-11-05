@@ -23,7 +23,7 @@ const Game = {
   },
 
   start: function() {
-    this.reset()
+    this.reset()  
     this.interval = setInterval(() => {
       this.framesCounter++;
 
@@ -52,7 +52,7 @@ const Game = {
 
   drawAll: function() {
     this.background.draw();
-    this.player.draw(this.framesCounter);
+    this.player.draw(this.framesCounter); 
     this.obstacles.forEach(obstacle => obstacle.draw())
     ScoreBoard.draw(this.score)
   },

@@ -11,11 +11,12 @@ class Background {
     this.posY = 0;
 
     this.vx = 8;
+    
   }
 
   draw() {
     this.ctx.drawImage(this.image, this.posX, this.posY, this.width, this.height);
-    this.ctx.drawImage(this.image, this.posX + this.width, this.posY, this.width, this.height)
+    this.ctx.drawImage(this.image, this.posX + this.width, this.posY, this.width, this.height) // esto genera el bucle de imagen.
   }
 
   move() {
